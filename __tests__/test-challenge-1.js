@@ -26,5 +26,25 @@ maybe('Challenge - 1 : my sumNumbers function can sum an array of numbers', () =
         -91,
         -50
     ];
+  // function sumNumbers() {
+  //   numbers.foreach(function (element) {
+  //     sumOfNumbers = sumOfNumbers + element;
+  //   })
+  //   return sumOfNumbers;
+  // }
     expect(sumOfNumbers(numbers)).toBe(75);
 });
+// let sumOf
+// function sumOfNumbers(){
+//     for (let index = 0; index < numbers.length; index++) {
+//     sumOf = sumOf + numbers[index]; 
+//   };
+//     return sumOf;
+//   };
+// sumOfNumbers = 0;
+// function sumNumbers() {
+//     numbers.foreach(function (element) {
+//       sumOfNumbers = sumOfNumbers + element;
+//     })
+//     return sumOfNumbers;
+//   }
